@@ -75,4 +75,13 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
         return 200
     }
     
+    //MARK: - navigation bar hides while scrolling top
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let defaultOffset = view.safeAreaInsets.top
+        let offset = scrollView.contentOffset.y + defaultOffset
+        print(min(0, -offset))
+        
+        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
+    }
+    
 }
