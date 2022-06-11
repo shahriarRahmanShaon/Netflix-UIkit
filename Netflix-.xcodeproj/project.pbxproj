@@ -18,6 +18,8 @@
 		00257803284F7FA700FC5AB0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00257802284F7FA700FC5AB0 /* SearchViewController.swift */; };
 		00257806284F8F5500FC5AB0 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00257805284F8F5500FC5AB0 /* CollectionViewTableViewCell.swift */; };
 		00257822284FB59000FC5AB0 /* HeroHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00257821284FB59000FC5AB0 /* HeroHeaderView.swift */; };
+		002A646128539F2D003F7E49 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A646028539F2D003F7E49 /* ApiCaller.swift */; };
+		00B71D392854B5BA006300C1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B71D382854B5BA006300C1 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		00257802284F7FA700FC5AB0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		00257805284F8F5500FC5AB0 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		00257821284FB59000FC5AB0 /* HeroHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderView.swift; sourceTree = "<group>"; };
+		002A646028539F2D003F7E49 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		00B71D382854B5BA006300C1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,9 @@
 		002577E6284F7D1400FC5AB0 /* Netflix- */ = {
 			isa = PBXGroup;
 			children = (
+				00B71D3A2854BC6A006300C1 /* Resources */,
+				00B71D372854B5AB006300C1 /* Models */,
+				002A645F28539F12003F7E49 /* Managers */,
 				00257804284F8F3400FC5AB0 /* Views */,
 				002577FB284F7F4A00FC5AB0 /* Controllers */,
 				002577E7284F7D1400FC5AB0 /* AppDelegate.swift */,
@@ -96,6 +103,29 @@
 				00257821284FB59000FC5AB0 /* HeroHeaderView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		002A645F28539F12003F7E49 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				002A646028539F2D003F7E49 /* ApiCaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		00B71D372854B5AB006300C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00B71D382854B5BA006300C1 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00B71D3A2854BC6A006300C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +207,8 @@
 				002577EA284F7D1400FC5AB0 /* SceneDelegate.swift in Sources */,
 				002577FF284F7F8500FC5AB0 /* UpcomingViewController.swift in Sources */,
 				002577FD284F7F6300FC5AB0 /* HomeViewController.swift in Sources */,
+				00B71D392854B5BA006300C1 /* Movie.swift in Sources */,
+				002A646128539F2D003F7E49 /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
